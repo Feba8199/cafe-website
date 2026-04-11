@@ -1,0 +1,7 @@
+cat > netlify.toml <<'EOF'
+[build]
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+EOF
