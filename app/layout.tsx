@@ -28,11 +28,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${playfair.variable} ${inter.variable}`}>
+      <body className={`${playfair.variable} ${inter.variable} site-shell`}>
         <Navbar />
-        {children}
+        <main className="site-main">{children}</main>
+        <Footer />
       </body>
-      <Footer />
     </html>
   );
 }

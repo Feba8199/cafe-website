@@ -980,3 +980,12 @@ h3 {
 .footer-signature a:hover {
   opacity: 0.8;
 }
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1;
+}
