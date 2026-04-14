@@ -25,7 +25,7 @@ export default function SocialsSection() {
           </a>
 
           <a
-            href="https://www.facebook.com/groups/EllerslieCommunityGroup/posts/4459372320961265/"
+            href="https://www.facebook.com/share/17KYGvVuTy/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"
