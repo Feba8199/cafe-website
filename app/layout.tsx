@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 import { Playfair_Display, Inter } from 'next/font/google';
 import Footer from '../components/Footer';
+import type { Metadata } from 'next';
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -13,9 +14,19 @@ const inter = Inter({
   variable: '--font-body',
 });
 
-export const metadata = {
-  title: 'Destination Cafe',
-  description: 'Simple cafe website',
+export const metadata: Metadata = {
+  title: 'Destination Cafe Auckland | Coffee, Breakfast & Brunch in Greenlane',
+  description:
+    'Visit Destination Cafe in Greenlane, Auckland for fresh coffee, breakfast, brunch, and a welcoming cafe experience.',
+  keywords: [
+    'Destination Cafe',
+    'Destination Cafe Auckland',
+    'Auckland cafe',
+    'Greenlane cafe',
+    'coffee Auckland',
+    'breakfast Auckland',
+    'brunch Auckland',
+  ],
   icons: {
     icon: '/logo.jpeg',
   },
@@ -23,9 +34,9 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <body className={`${playfair.variable} ${inter.variable} site-shell`}>
