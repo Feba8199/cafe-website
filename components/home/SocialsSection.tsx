@@ -25,7 +25,7 @@ export default function SocialsSection() {
           </a>
 
           <a
-            href="https://www.facebook.com/share/17KYGvVuTy/?mibextid=wwXIfr"
+            href="https://www.facebook.com/people/Destination-Cafe-Greenlane/61587087418210"
             target="_blank"
             rel="noopener noreferrer"
             className="social-card"
