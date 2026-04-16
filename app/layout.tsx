@@ -28,7 +28,9 @@ export const metadata: Metadata = {
     'brunch Auckland',
   ],
   icons: {
-    icon: '/logo.jpeg',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
