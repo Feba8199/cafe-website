@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://destinationcafe.co.nz/sitemap.xml
